@@ -8,12 +8,13 @@ Este repositorio sirve como punto de partida y documentación general.
   Lógica de negocio, API y servicios principales.
 
 - 🎨 [Backend](https://github.com/BSWProyectoWeb/backend)
-  Interfaz de usuario y componentes gráficos.
+  Contiene todo el código fuente, configuraciones ...
 
 - ⚙️ [Frontend](https://github.com/BSWProyectoWeb/frontend)
-  Configuración de despliegue, automatización y CI/CD.
+  Interfaz de usuario y componentes gráficos.
 
-- 📚 [Documentación](https://https://github.com/BSWProyectoWeb/Documentacion)
+- 📚 [Documentación](https://github.com/BSWProyectoWeb/Documentacion)
+  Dodumentación, estructura de entregas y manuales.
 
 ## 📖 Documentación
 
