@@ -5,13 +5,12 @@ Este repositorio sirve como punto de partida y documentación general.
 
 ## 📂 Repositorios del proyecto
 
-- 🔧 [Backend](../backend)  
   Lógica de negocio, API y servicios principales.
 
-- 🎨 [Frontend](../frontend)  
+- 🎨 [Frontend](https://github.com/BSWProyectoWeb/backend)  
   Interfaz de usuario y componentes gráficos.
 
-- ⚙️ [Infraestructura](../infraestructura)  
+- ⚙️ [Infraestructura](https://github.com/BSWProyectoWeb/frontend)  
   Configuración de despliegue, automatización y CI/CD.
 
 ## 📖 Documentación
