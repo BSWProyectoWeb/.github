@@ -24,4 +24,4 @@ Este proyecto está gestionado de manera interna.
 Si quieres más información, contacta con el equipo de desarrollo.
 
 ---
-© 2025 Organización XYZ
+© 2025 Organización Basewarnet
