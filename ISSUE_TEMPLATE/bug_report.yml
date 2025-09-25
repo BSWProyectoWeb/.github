@@ -38,3 +38,4 @@ body:
     attributes:
       label: Información adicional
       description: Cualquier otra información útil (logs, capturas, etc.)
+      
