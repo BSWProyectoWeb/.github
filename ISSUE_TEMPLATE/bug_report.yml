@@ -1,0 +1,40 @@
+name: Bug Report
+description: Reportar un error para ayudarnos a mejorar el proyecto
+title: "[BUG] - "
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción
+      description: Describe claramente el error que encontraste
+      placeholder: Ej. Al hacer clic en guardar, la app se cierra
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      description: Detalla los pasos necesarios para reproducir el problema
+      placeholder: |
+        1. Ir a '...'
+        2. Hacer clic en '...'
+        3. Ver el error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamiento esperado
+      description: Describe lo que esperabas que ocurriera
+      placeholder: La aplicación debería guardar sin cerrarse
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Información adicional
+      description: Cualquier otra información útil (logs, capturas, etc.)
