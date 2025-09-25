@@ -2,13 +2,21 @@ name: Bug Report
 description: Reportar un error para ayudarnos a mejorar el proyecto
 title: "[BUG] - "
 labels: [bug]
+assignees: [] # puedes poner aquí un usuario por defecto si quieres
+
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ¡Gracias por reportar un bug!
+        Completa la siguiente información para que podamos reproducir y corregir el problema.
+
   - type: textarea
     id: description
     attributes:
       label: Descripción
       description: Describe claramente el error que encontraste
-      placeholder: Ej. Al hacer clic en guardar, la app se cierra
+      placeholder: Ej. Al hacer clic en guardar, la ventana se cierra
     validations:
       required: true
 
@@ -34,8 +42,25 @@ body:
       required: true
 
   - type: textarea
+    id: screenshots
+    attributes:
+      label: Capturas de pantalla
+      description: Si es posible, adjunta imágenes que ayuden a entender el problema
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Entorno
+      description: Detalla en qué condiciones ocurrió el bug
+      placeholder: |
+        - SO: Ubuntu 22.04
+              Win10 - Win11
+        - Navegador: Chrome 117
+                    Microsoft Edge.
+        - Versión del Despliegue o Modulo: v1.2.3
+
+  - type: textarea
     id: extra
     attributes:
       label: Información adicional
-      description: Cualquier otra información útil (logs, capturas, etc.)
-      
+      description: Agrega cualquier dato extra que pueda ayudar
